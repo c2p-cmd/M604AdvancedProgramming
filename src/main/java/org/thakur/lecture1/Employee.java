@@ -1,5 +1,7 @@
 package org.thakur.lecture1;
 
+import org.thakur.lecture1.oops.Person;
+
 public class Employee extends Person {
     private final String employeeId, position;
 

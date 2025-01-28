@@ -1,4 +1,7 @@
 package org.thakur.lecture1;
+import org.thakur.lecture1.oops.Person;
+import org.thakur.lecture1.oops.Student;
+
 import java.util.*;
 
 public class Main {
