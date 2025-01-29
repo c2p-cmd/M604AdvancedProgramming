@@ -1,6 +1,7 @@
 package org.thakur.lecture1;
-import org.thakur.lecture1.oops.Person;
-import org.thakur.lecture1.oops.Student;
+import org.thakur.practice.oops.Employee;
+import org.thakur.practice.oops.Person;
+import org.thakur.practice.oops.Student;
 
 import java.util.*;
 
