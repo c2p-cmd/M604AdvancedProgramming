@@ -1,4 +1,4 @@
-package org.thakur.lecture1.oops.library;
+package org.thakur.practice.oops.library;
 
 import java.util.Objects;
 

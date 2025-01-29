@@ -1,4 +1,4 @@
-package org.thakur.lecture1.oops;
+package org.thakur.practice.oops;
 
 public abstract class Person implements Comparable<Person> {
     private final String name;

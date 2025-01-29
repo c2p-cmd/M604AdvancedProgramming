@@ -1,4 +1,4 @@
-package org.thakur.lecture1.oops;
+package org.thakur.practice.oops;
 
 public class Student extends Person {
     private final String studentId, major;
