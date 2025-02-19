@@ -8,21 +8,11 @@ public class BankingApp {
         System.out.println("Interest for: " + savingsAccount.getClass() + " is: " + savingsAccount.calculateInterest());
         System.out.println("Interest for: " + checkingAccount.getClass() + " is: " + checkingAccount.calculateInterest());
 
-        final Investor bondsInvestor = new Investor() {
-            @Override
-            public InvestmentKind getInvestmentKind() {
-                return InvestmentKind.bonds;
-            }
-        };
+        final Investor bondsInvestor = new BondsInvestor();
 
         bondsInvestor.investIn(checkingAccount);
 
-        final Investor fixedDepositInvestor = new Investor() {
-            @Override
-            public InvestmentKind getInvestmentKind() {
-                return InvestmentKind.fixedDeposit;
-            }
-        };
+        final Investor fixedDepositInvestor = new FixedDepositInvestor();
 
         fixedDepositInvestor.investIn(savingsAccount);
     }
